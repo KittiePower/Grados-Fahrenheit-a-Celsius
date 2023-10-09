@@ -1,0 +1,32 @@
+/******************************************************************************
+Grados Fahrenheit a Celsius
+Nombre: Elisa Michelle Medina Vázquez
+Fecha: 140422
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+int main()
+{
+    //Variables
+    float fahrenheit,celsius,conversion;
+    
+    //Valor de fahrenheit
+    cout <<"Cuantos grados fahrenheit quieres convertir? ";
+    cin>>fahrenheit;
+    
+    //Formula 
+    celsius=(fahrenheit-32)*5/9;
+    
+    //Proceso
+    cout<<"La conversion de grados fahrenheit a celsius es "<<celsius<<endl;
+    return 0;
+}
+
+
+
+
+
+
+
+
+
